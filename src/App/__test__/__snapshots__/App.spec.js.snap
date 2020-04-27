@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<App /> matches the snapshot 1`] = `
+<main
+  className="app"
+>
+  Welcome to Scribd!
+  <section
+    className="carousel"
+  />
+</main>
+`;
