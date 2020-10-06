@@ -7,6 +7,9 @@ $view_more_size: 16px;
 $arrow_padding: 12px;
 $cell_padding: 12px;
 
+$right_arrow_rotate: rotate(-45deg);
+$left_arrow_rotate: rotate(135deg);
+
 .carousel {
   .arrow {
     border: solid #57617a;
@@ -14,7 +17,7 @@ $cell_padding: 12px;
     display: inline-block;
     height: 10px;
     padding: 5px;
-    transform: rotate(-45deg);
+    transform: $right_arrow_rotate;
     vertical-align: middle;
     width: 10px;
   }
