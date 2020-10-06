@@ -1,7 +1,8 @@
 $title_color: #000514;
 $link_color: #a9085e;
 
-$title_size: 16px;
+$title_size: 22px;
+$view_more_size: 16px;
 
 $arrow_padding: 12px;
 $cell_padding: 12px;
@@ -11,8 +12,10 @@ $cell_padding: 12px;
     border: solid #57617a;
     border-width: 0 2px 2px 0;
     display: inline-block;
+    height: 10px;
     padding: 5px;
-    vertical-align: middle;
     transform: rotate(-45deg);
+    vertical-align: middle;
+    width: 10px;
   }
 }
