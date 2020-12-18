@@ -11,14 +11,23 @@ $right_arrow_rotate: rotate(-45deg);
 $left_arrow_rotate: rotate(135deg);
 
 .carousel {
-  .arrow {
-    border: solid #57617a;
-    border-width: 0 2px 2px 0;
-    display: inline-block;
-    height: 10px;
-    padding: 5px;
-    transform: $right_arrow_rotate;
-    vertical-align: middle;
-    width: 10px;
+  display: flex;
+  overflow-x: auto;
+  // max-height: 200px;
+
+}
+
+.arrow {
+  border: solid #57617a;
+  border-width: 0 2px 2px 0;
+  display: inline-block;
+  height: 10px;
+  padding: 5px;
+  transform: $right_arrow_rotate;
+  vertical-align: middle;
+  width: 10px;
+
+  &__left {
+    transform: $left_arrow_rotate;
   }
 }

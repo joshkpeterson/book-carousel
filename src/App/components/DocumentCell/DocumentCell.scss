@@ -8,4 +8,8 @@ $image_width: 149px;
 $image_height: 198px;
 
 .document-cell {
+    &__image {
+        margin: 0 12px 0 0;
+        width: 200;
+    }
 }
